@@ -9,3 +9,4 @@ python3 memory_squad_chunk_ablation.py \
   --limit 50 \
   --workers 20 \
   --prompt-limit-words 100
+python3 segment.py   --limit 50   --workers 50   --fixed-sizes 20 40   --print-every-result
